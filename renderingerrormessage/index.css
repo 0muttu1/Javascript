@@ -1,0 +1,14 @@
+button{
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+body{
+    background-color:cornsilk;
+}
+p{
+    text-align: center;
+    text-decoration: solid;
+    color: crimson;
+    font-size: large;
+}
