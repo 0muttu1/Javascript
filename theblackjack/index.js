@@ -1,4 +1,3 @@
-
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -9,13 +8,14 @@ let sumEl = document.getElementById("sum-el")
 //let sumEl = document.querySelector("#sum-el")
 let cardEl = document.getElementById("card-el")
 
+
 ////////////object player key and value like maps in cpp//////////////////
 let player = {
 name : "Chanvir",
 chips: 145
 }
 let playerEl = document.getElementById("player-el")
-playerEl.textContent=playerName + ": " + "$" +playerChips
+playerEl.textContent=player.name + ": " + "$" +player.chips
 ///////////////////////////////////////////////////////////////////////
 function startgame(){
     isAlive = true

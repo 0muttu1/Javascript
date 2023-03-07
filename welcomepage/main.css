@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    align-content: center;
+
+}
+div{
+    text-align: center;
+}
+#orange-el{
+    width:auto;
+    background-color: orange;
+    align-self: center;
+    border-radius : 10px;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+#apple-el 
+{
+    width:auto;
+    background-color: red;
+    align-self: center;
+    border-radius : 10px;
+}
